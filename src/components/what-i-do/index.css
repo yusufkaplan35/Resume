@@ -1,0 +1,26 @@
+.what-i-do .row > * {
+	flex-basis: 250px;
+}
+
+.what-i-do ul li {
+	display: flex;
+	align-items: start;
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+.what-i-do ul p {
+	opacity: 0.6;
+}
+
+.what-i-do ul i {
+	background-color: var(--color1);
+	color: var(--color4);
+	padding: 15px;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}

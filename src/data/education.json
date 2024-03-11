@@ -1,0 +1,23 @@
+[
+	{
+        "id": 1,
+		"date": "2000-2004",
+		"title": "Computer Science",
+		"school": "International University",
+		"desc": "Lorem ipsum dolor sit amet consectetur adipisici elit. Quidem, nemo? Omnis ratione rerum vero nulla?"
+	},
+	{
+        "id": 2,
+		"date": "2000-2004",
+		"title": "Computer Science",
+		"school": "International University",
+		"desc": "Lorem ipsum dolor sit amet consectetur adipisici elit. Quidem, nemo? Omnis ratione rerum vero nulla?"
+	},
+	{
+        "id": 3,
+		"date": "2000-2004",
+		"title": "Computer Science",
+		"school": "International University",
+		"desc": "Lorem ipsum dolor sit amet consectetur adipisici elit. Quidem, nemo? Omnis ratione rerum vero nulla?"
+	}
+]

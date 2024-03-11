@@ -1,0 +1,25 @@
+footer .row > * {
+	flex-basis: 300px;
+	text-align: center;
+}
+
+@media(min-width: 750px){
+	footer .row > * {
+		text-align: left;
+	}
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+}
+
+@media(min-width: 750px){
+	footer ul {
+		justify-content: end;
+	}
+}
+
+footer ul a {
+	padding: 10px;
+}

@@ -1,0 +1,22 @@
+.lbl-menu {
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+@media (min-width: 1000px) {
+	.lbl-menu {
+		display: none;
+	}
+}
+
+.chk-menu {
+	display: none;
+}
+
+.chk-menu:checked + .main-menu {
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+}

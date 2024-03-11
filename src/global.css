@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+	--color1: #212529;
+	--color2: #e6e6e6;
+	--color3: #343a40;
+	--color4: #02b75a;
+	--color5: #4f4f50;
+	--color6: #0f0f0f;
+	--color7: #00ea71;
+}
+
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+	margin: 0;
+}
+/*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color1);
+	color: var(--color2);
+}
+/*
+    5. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+/*
+    6. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+/*
+    7. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+
+
+
+a {
+	color: var(--color2);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--color4);
+}
+
+ul,
+ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+
+
+.container {
+	padding: 70px 20px;
+}
+
+@media(min-width: 500px){
+	.container {
+		padding: 70px 50px;
+	}
+}
+
+@media(min-width: 800px){
+	.container {
+		padding: 70px 100px;
+	}
+}
+
+@media(min-width: 1000px){
+	.container {
+		padding: 70px 150px;
+	}
+}
+
+
+.row {
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+}
+
+.row > * {
+	flex: 1 1;
+}
+
+.text-green {
+	color: var(--color4);
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+.btn {
+	background: none;
+	border: 1px solid var(--color5);
+	color: var(--color5);
+	padding: 8px 40px;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	gap:15px;
+	border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	-ms-border-radius: 60px;
+	-o-border-radius: 60px;
+}
+
+svg{
+	display: inline-block;
+}
+
+.btn:hover {
+	border-color: var(--color2);
+	color: var(--color2);
+}
+
+.btn-outline {
+	border-color: var(--color4);
+	color: var(--color4);
+}
+
+.btn-outline:hover {
+	border-color: var(--color7);
+	color: var(--color7);
+}
+
+.btn-bg {
+	background-color: var(--color4);
+	border-color: var(--color4);
+	color: var(--color2);
+}
+
+.btn-bg:hover {
+	background-color: var(--color7);
+	border-color: var(--color7);
+	color: var(--color1);
+}
+
+.form-control {
+	width: 100%;
+	background-color: var(--color1);
+	color: var(--color5);
+	border: none;
+	padding: 7px 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.form-control:focus {
+	outline: 1px solid var(--color5);
+}
+
+
+main > section:nth-child(odd) {
+	background-color: var(--color3);
+}

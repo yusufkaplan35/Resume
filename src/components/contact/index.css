@@ -1,0 +1,48 @@
+/* CONTACT */
+.contact .row > * {
+	flex-basis: 300px;
+}
+
+.contact .info {
+	text-align: center;
+}
+
+@media (min-width: 750px) {
+	.contact .info {
+		text-align: left;
+	}
+}
+
+.contact .info .social-menu{
+    display: block;
+}
+
+.contact h4 {
+	margin-bottom: 20px;
+}
+
+.contact ol {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.contact ol i {
+	color: var(--color4);
+	margin-right: 5px;
+}
+
+.contact ul {
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width: 750px) {
+	.contact ul {
+		justify-content: start;
+	}
+}
+
+.contact ul a {
+	padding: 10px;
+}

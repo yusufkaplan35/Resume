@@ -1,0 +1,44 @@
+.portfolio nav {
+	margin-bottom: 30px;
+}
+
+.portfolio nav ul {
+	display: flex;
+	justify-content: center;
+}
+
+.portfolio nav a {
+	padding: 10px 15px;
+	display: inline-block;
+	border-bottom: 3px solid transparent;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+
+.portfolio nav a:hover {
+	border-bottom-color: var(--color4);
+}
+
+.portfolio .masonary-content {
+	column-count: 1;
+	column-gap: 15px;
+}
+
+@media (min-width: 500px) {
+	.portfolio .masonary-content {
+		column-count: 2;
+	}
+}
+
+@media (min-width: 1000px) {
+	.portfolio .masonary-content {
+		column-count: 3;
+	}
+}
+
+.portfolio .masonary-content img {
+	margin-bottom: 15px;
+}

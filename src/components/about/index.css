@@ -1,0 +1,71 @@
+.about .row > div:first-child {
+	flex: 6 1 300px;
+}
+
+.about .row > div:last-child {
+	flex: 2 1 300px;
+}
+
+.about h3 {
+	margin-bottom: 15px;
+	font-size: 1.5rem;
+}
+
+.about p {
+	line-height: 27px;
+	margin-bottom: 15px;
+}
+
+.about ul.contact li {
+	line-height: 50px;
+	border-bottom: 1px solid var(--color5);
+}
+
+.about ul.contact li:last-child {
+	border: none;
+	margin-bottom: 30px;
+}
+
+.about .stats {
+	margin-top: 50px;
+	text-align: center;
+	column-gap: 30px;
+}
+
+.about .stats li {
+	flex-basis: 150px;
+}
+
+@media (min-width: 530px) {
+	.about .stats li:nth-child(odd) {
+		border-right: 1px dashed var(--color5);
+	}
+}
+
+@media (min-width: 760px) {
+	.about .stats li:nth-child(2) {
+		border-right: 1px dashed var(--color5);
+	}
+
+	.about .stats li:nth-child(3) {
+		border-right: none;
+	}
+}
+
+@media (min-width: 1190px) {
+	.about .stats li:nth-child(3) {
+		border-right: 1px dashed var(--color5);
+	}
+}
+
+.about .stats li:last-child {
+	border: none;
+}
+
+.about .stats h3 {
+	font-size: 2rem;
+}
+
+.about .stats p {
+	font-size: 0.8rem;
+}
